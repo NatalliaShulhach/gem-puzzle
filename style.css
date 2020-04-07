@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(238, 241, 223);
+}
+
+.wrapper {
+    justify-content: space-between;
+    margin: 0 auto;
+    
+    width: 700px;
+    
+    height: 50px;
+    z-index: 0;
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    margin: 1% auto;
+    margin-left: 2%;
+    color: rgb(16, 43, 16);
+    text-align: center;
+    font-size: 12px;
+    font-family: Times New Roman;
+    color: rgb(17, 11, 11);
+    width: 160px;
+    height: 40px;
+    background-color: cornflowerblue;
+    border-radius: 5%;
+    border-color: blue;
+}
+
+.size{
+    display: inline-block;
+    margin: 1% auto;
+    margin-left: 2%;
+    color: rgb(16, 43, 16);
+    text-align: center;
+    font-size: 12px;
+    font-family: Times New Roman;
+    color: rgb(17, 11, 11);
+    width: 70px;
+    height: 30px;
+    background-color: cornflowerblue;
+    border-radius: 5%;
+    border-color: blue;
+}
+
+.button:hover{
+    background-color: rgb(153, 177, 223);
+}
+
+.button:focus{
+    background-color: rgb(153, 177, 223);
+}
+
+.size-selection {
+    display: block;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 1%;
+    font-size: 12px;
+    font-family: Times New Roman;
+    width: 700px;
+    color: rgb(0, 0, 0);
+}
+
+td {
+    text-align: center;
+    font-family: Times New Roman;
+    color: gray;
+    vertical-align: middle;
+}
+
+#box td {
+    border: solid 1px gray;
+    text-align: center;
+    font-size: 40px;
+    font-family: Times New Roman;
+    color: gray;
+    width: 55px;
+    height: 55px;
+}
+
+.wrapper td:hover {
+    color: white;
+    cursor: hand;
+}
+
+.table {
+    background-color: rgb(43, 43, 80);
+    margin: -1% auto;
+    
+}
+
+.row {
+    background-color: blueviolet;
+}
+
+.cell {
+    background-color: rgb(108, 211, 206);
+    color: rgb(29, 29, 82);
+    font-weight: bold;
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+}
