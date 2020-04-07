@@ -280,7 +280,7 @@ function Stopwatch() {
 
 function Victory() {
     timer && clearInterval(timer);
-    let userName = promt("Введите ваше имя");
-    let playtime = document.getElementsByClassName('stopwatch')[0].innerHTML;
+    let userName = prompt("Введите ваше имя");
+    let playTime = document.getElementsByClassName('stopwatch')[0].innerHTML;
     alert(`Ура! игра завершена! ${userName} завершил игру за ${playTime}`)
 }
